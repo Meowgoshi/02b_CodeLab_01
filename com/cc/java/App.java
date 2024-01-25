@@ -8,6 +8,7 @@ public class App {
 
         output(konto1.getName());
         output(String.valueOf(konto1.getKontostand()));
+        output("Kontostand * 2 =");
         output(String.valueOf(konto1.getKontostand() * 2));
 
         output("----------------------------");
@@ -16,6 +17,7 @@ public class App {
 
         output(konto2.getName());
         output(String.valueOf(konto2.getKontostand()));
+        output("Kontostand * 3 =");
         output(String.valueOf(konto2.getKontostand() * 3));
 
         output("----------------------------");
@@ -24,6 +26,7 @@ public class App {
 
         output(konto3.getName());
         output(String.valueOf(konto3.getKontostand()));
+        output("Kontostand * 10 =");
         output(String.valueOf(konto3.getKontostand() * 10));
     }
 
